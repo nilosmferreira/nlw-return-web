@@ -8,8 +8,16 @@ module.exports = {
           hover: '#996DFF',
           text: '#FFFFFF',
         },
+        text: {
+          primary: '#f4f4f5',
+          secundary: '#a1a1aa',
+          tooltip: '#27272a',
+        },
       },
+      // borderRadius: {
+      //   md: '4px',
+      // },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'), require('tailwind-scrollbar')],
 };
